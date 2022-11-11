@@ -446,12 +446,7 @@ form
   
 }
 
-/* custom */
-.extra-head, .extra-footer{
-  padding: 0;
-  margin-top: 20px;
-  font-weight: bold;
-}
+
 .welcome{
   font-weight: 400;
   letter-spacing: 1px;
@@ -463,4 +458,10 @@ form
   width: 100%;
   padding: 10px;
   display: block;
+}
+
+.bold{
+  font-weight: bolder;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
