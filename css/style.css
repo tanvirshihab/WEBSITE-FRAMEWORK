@@ -1,0 +1,466 @@
+
+*
+	{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;	
+	}
+h1
+	{
+	color : #007;
+	font-family: 'Epilogue', sans-serif;	
+	}
+h2
+	{
+	color : #009;	
+	font-family: 'Epilogue', sans-serif;
+	}	
+p
+	{
+	color : #000;
+	font-family: 'Baloo Tammudu 2', cursive;
+	}
+
+table
+	{
+	color : #A00;
+	font-family: 'Noto Sans JP', sans-serif;	
+	}
+th
+	{
+	font-weight: bold; 	
+	}
+td 
+	{
+	font-style: italic;	
+	}
+form
+	{
+	color : #0A0;	
+	font-family: 'Open Sans', sans-serif;
+	}
+
+  .mr10{
+    margin-right: 10px;
+  }
+
+  textarea,input{
+    width: 100%;
+  }
+
+	/* new style */
+
+  body {
+    margin: 0;
+  }
+  header{
+    width: 100%;
+    
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+  }
+  .card video {
+    width: 60%;
+    margin-bottom: 40px;
+		 object-fit: fill;
+  }
+#main > article iframe{
+  width:100%;
+}
+
+.container{
+  width: 100%;
+  margin-top:250px ;
+}
+
+#customers {
+  border-collapse: collapse;
+  width: 100%;
+  height: 700px;
+  color: black;
+}
+  #customers h3{
+    margin-top: 15px;
+  }
+
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #327df5;
+    color: white;
+  }
+  .polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid img {width: 100%}
+  #main > article table tr {
+    border-left: 1pt solid black;
+   
+  }
+
+  #main > nav {
+    order: -1;
+    
+  }
+  #main > nav ul {
+    list-style:none;
+    display: block;
+    width: 100%;
+    margin-top: 30px ;
+    font-weight: bold;
+    font-size: 14px;
+
+    
+    
+  }
+  #main > nav ul li{
+  margin-top: 10px ;
+   
+  }
+  #main > nav ul li a{
+   text-decoration: none;
+  }
+  header, footer, aside, nav, section {
+    padding: 1em;
+  }
+  .home_footer {
+    background: #121212;
+    height: 8vh;
+    color:#fff;
+  }
+
+
+	.product-section{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: right;
+	}
+	.product-card {
+		width: 33%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: right;
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem;
+}
+
+	.table-card {
+		width: 82%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: right;
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem;
+}
+.product-card figure img{
+	object-fit: contain;
+	width: 100%;
+	height: auto;
+}
+.product-card-head {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  margin: .5rem;
+  padding: .3rem;
+  font-size: 1.2rem;
+}
+
+.section-contact{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: right;
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem;
+
+}
+
+
+
+	/* My custom */
+
+	nav{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 40px;
+		
+	}
+
+	nav ul{
+		
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+    
+		
+	}
+
+	nav ul li a{
+		color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 40px;
+		text-decoration: none;
+    border-bottom:  1px solid #000;
+	}
+	nav ul li a:hover{
+		color: #272627;
+    border-top:  1px solid #000;
+
+	}
+
+	aside{
+		width: 300px;
+		background-color: #327df5;
+	}
+	aside ol li{
+		margin: 15px 0 15px 0;
+	}
+	aside ol li a{
+		
+		text-decoration: none;
+		font-weight: bold;
+		color: #121212;
+		letter-spacing: 3px;
+	}
+
+	#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+  #customers h3{
+    margin-top: 15px;
+  }
+
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #327df5;
+    color: white;
+  }
+  .polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+	.section-contact{
+		width: 100%;
+	}
+
+	fieldset h2{
+		padding: 10px;
+	}
+
+	form fieldset ul{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center ;
+		gap: 15px;
+		padding: 50px;
+    list-style: none;
+	}
+
+
+/* dublicate */
+	.recent_products li{
+		padding: 10px;
+		list-style: none;
+	}
+
+
+	.recent_products li a img{
+		object-fit: cover;
+		width: 100%;
+		height: auto;
+	}
+
+  /* dublicae ends */
+
+/* Header/Blog Title */
+.headerinner {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+  border-radius: 3px;
+  list-style: none;
+  border: 1px dotted #327df5;
+}
+
+.fakeimg-extra {
+  background-color: rgb(249, 248, 248);
+  width: 100%;
+  padding: 20px;
+  border-radius: 3px;
+  list-style: none;
+}
+
+.fakeimg a img{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.card p{
+  font-family: 'Roboto', sans-serif;	
+  background-color: rgb(238, 238, 238);
+  padding: 2px;
+  font-size: 18px;
+  line-height: 1.5;
+} 
+
+/* Fake image */
+.proimg {
+  display: flex;
+  gap: 30px;
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  list-style: none;
+}
+
+
+.proimg a img{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.innfooter {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.cookies{
+  width: 100px;
+  height: 20px;
+  font-size: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(255, 170, 0, 1);
+  color: #fff;
+  padding: 5px;
+  opacity: 0.5;
+
+}
+.cookies:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+ 
+  
+}
+
+/* custom */
+.extra-head, .extra-footer{
+  padding: 0;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.welcome{
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.bghome{
+  background-color: #327df5;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  display: block;
+}

@@ -3,25 +3,26 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name = "keywords" content="homework, two, student, table, ul" />
-	<meta name = "description" content="Homework for week 3 it is all about product and contact page.Now with a video" />
+  <meta name = "keywords" content="Project Final" />
+	<meta name = "description" content="All about Home,Pricing, Product and Contact page" />
 	<meta name = "author" content="Tanvir" />
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" type="text/css" href="css/ihavestyle.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <title>Brave Mango Inc- contact &#124; page</title>		
+  <title>Brave Mango.Inc - contact &#124; page</title>		
 </head>
 
 
 <body>
-  <header>
+
+<header>
     <figure>
       <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
     </figure>
-    <span>
-      <h1>Welcome to Brave Mango Inc. </h1>
+    <span class="bghome">
+      <h1>Welcome to Brave Mango.Inc </h1>
       <h2>Cheapest possible price Guaranteed!!!</h2>
     </span>
     <nav>
@@ -32,106 +33,116 @@
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
-  </header>
-	<section id="main">
-      <section class="section-contact">
-    <article class="product-card">
-     				<article>
-					<form>
-						<fieldset>
-							<legend>Contact by mail</legend> 
-							<h2>
-								Please select the topic you would like to contact us about. So, we can serve you better and faster
-							</h2>					
-							<ul>
-								<li>
-									<label for="question">
-										What is your question about?
-									</label>
+</header>
 
-									<select name="question">
-										<option value="order">Ordering and delivery</option>
-										<option value="cancel">Cancel and return</option>
-										<option value="gift">Gift voucher</option>
-										<option value="other">Other question </option>
-									</select> 
-								</li>
-								<li>
-									<textarea name="message" id="" cols="60" rows="10" required></textarea>
-									<span>
-										<label for="note">   
-										note &#42;
-									  </label>
-										The notes can be up to 5000 characters.
-									</span>	
-								</li>
-								<li>
-									<label for="file">   
-										Add an attachment? <span>optional</span> 
-									</label>
-									<input type="file" name="file" />
-									<span>
-										Max 10 MB File
-									</span>	
-								</li>
-								<li>
-									<label for="name">   
-										Your name &#42;
-									</label>
-									<input type="text" name="name" required />
-								</li>
-								<li>
-									<label for="phone">   
-										Phone number
-									</label>
-									<input type="tel" name="phone" />
-								</li>
-								<li>
-									<label for="email">   
-										E-Mail address &#42;
-									</label>
-									<input type="email" name="email" required />
-								</li>
-								
-								<li>
-									<button type="submit">   
-										&gt; Send email
-									</button>
-								</li>	
-							</ul>
-						</fieldset>
-					</form>
-				</article>	
+<section class="headerinner">
+  <h2>Contact Page</h2>
+</section>
+
+<main class="row">
+  <section class="leftcolumn">
+    <article class="card">
+      <form>
+        <fieldset>
+          <legend>Contact by email</legend> 
+          <h2>
+            Please select your topic to contact us. 
+            So, we will get back you as soon as possible. 
+          </h2>					
+          <ul>
+            <li>
+              <label for="question">
+                What is your question about?
+              </label>
+
+              <select name="question">
+                <option value="order">Ordering and delivery</option>
+                <option value="cancel">Cancel and return</option>
+                <option value="gift">Gift voucher</option>
+                <option value="other">Other question </option>
+              </select> 
+            </li>
+            <li>
+              <textarea name="message" id="" cols="60" rows="10" required></textarea>
+              <span>
+                <label for="note">   
+                note &#42;
+                </label>
+                The notes can be up to 4000 characters.
+              </span>	
+            </li>
+            <li>
+              <label for="file">   
+                Add an attachment? <span>optional</span> 
+              </label>
+              <input type="file" name="file" />
+              <span>
+                Max 30 MB File
+              </span>	
+            </li>
+            <li>
+              <label for="name">   
+                Your name &#42;
+              </label>
+              <input type="text" name="name" required />
+            </li>
+            <li>
+              <label for="phone">   
+                Phone number
+              </label>
+              <input type="tel" name="phone" />
+            </li>
+            <li>
+              <label for="email">   
+                E-Mail address &#42;
+              </label>
+              <input type="email" name="email" required />
+            </li>
+            
+            <li>
+              <button type="submit">   
+                &gt; Send email
+              </button>
+            </li>	
+          </ul>
+        </fieldset>
+      </form>
     </article>
   </section>
-    <aside class="recent_products">
-      <h2>Recent Products</h2>
-        <li>
-					<p>Laptop 1</p>
-					<a href="https://www.inholland.nl/" target="_blank">
-						<img src="img/products/product-9.jpg" />
-					</a>
-				</li>
-				<li>
-					<p>Laptop 2</p>
-					<a href="https://www.inholland.nl/" target="_blank">
-						<img src="img/products/product-10.jpg" />
-					</a>
-				</li>
-				<li>
-					<p>Laptop 3</p>
-					<a href="https://www.inholland.nl/" target="_blank">
-						<img src="img/products/product-2.jpg" />
-					</a>
-				</li>
+  <section class="rightcolumn">
+    <aside class="card">
+      <h3>Most Popular Products</h3>
+      <li class="fakeimg">
+        <h3>Laptop-1</h3>
+        <a href="https://www.inholland.nl/" target="_blank">
+					<img src="img/products/product-1.jpg" />
+				</a>
+      </li>
+      <li class="fakeimg">
+        <h3>Laptop-2</h3>
+        <a href="https://www.inholland.nl/" target="_blank">
+					<img src="img/products/product-2.jpg" />
+				</a>
+      </li>
+      <li class="fakeimg">
+        <h3>Laptop-3</h3>
+        <a href="https://www.inholland.nl/" target="_blank">
+					<img src="img/products/product-3.jpg" />
+				</a>
+      </li>
+
     </aside>
-
+   
   </section>
+</main>
 
+<span class="cookies">
+  cookie statement
+</span>
 
-  <footer class="home_footer">
-    &copy 2022 Tanvir All Rights Reserved
-  </footer>
+<section class="innfooter">
+  <h2>© 2022 Tanvir All Rights Reserved</h2>
+</section>
 
 </body>
 </html>

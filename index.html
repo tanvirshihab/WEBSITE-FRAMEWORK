@@ -3,15 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name = "keywords" content="homework, two, student, table, ul" />
-	<meta name = "description" content="Homework for week 3 it is all about product and contact page.Now with a video" />
+  <meta name = "keywords" content=" Project Final  " />
+	<meta name = "description" content="All about Home,Pricing, Product and Contact page" />
 	<meta name = "author" content="Tanvir" />
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" type="text/css" href="css/ihavestyle.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <title>Brave Mango Inc- Home &#124; landing page</title>		
+  <title>Brave Mango.Inc - Home &#124; landing page</title>		
 </head>
 
 
@@ -20,8 +20,8 @@
     <figure>
       <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
     </figure>
-    <span>
-      <h1> Welcome to Brave Mango Inc. </h1>
+    <span class="bghome">
+      <h1>Welcome to Brave Mango.Inc </h1>
       <h2>Cheapest possible price Guaranteed!!!</h2>
     </span>
     <nav>
@@ -31,80 +31,118 @@
 					<li><a href="pricing.html">Pricing</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
+
 			</nav>
-      <figure>
-        <img src="img/banner.jpg" alt="5 Terre" style="width:100%">
-      </figure>
+      
   </header>
-  <section id="main">
-    <article>
-      <h1>Technology promotion movie clips</h1>
-      <video autoplay muted>
-        <source src="videos/production.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </article>
-    <aside>
-      <h2>Topics List</h2>
-      <ol>
-        <li><a href="#">Apple watch 7 features</a></li>
-        <li><a href="#">Most populler online playstation games </a></li>
-        <li><a href="#">iPhone 14 new relased</a></li>
-        <li><a href="#">tiktok trand now a days</a></li>
-        <li><a href="#">List 3</a></li>
-      </ol>      
-    </aside>
 
-  </section>
-  <section>
-      <p>Welcome at the Brave Mango Inc. page. We selling computers in 3 categories. Brave Mango Inc. is founded in 2000 by 3 students. It all started, when many classmates ask advice about computers. After a few months they expend their business to deliver computers to companies and also to the students. Because our fixed cost are low and deliver many computers, we have the lowest prices.</p>
-  </section>
 
-  <section class="product-section">
-    <article class="product-card">
-      <figure>
-        <img src="img/products/pc1.jpg" />
-      </figure>
-      <header class="product-card-head">
-        <h2 itemprop="headline">Student Dev Pro</h2>
-        <p><time itemprop="datePublished" datetime="2009-10-09">3 days ago</time></p>
-      </header>
-      <p>Laptop 1	OS: Windows 11 Home 64,CPU: Intel® Core™ i7-7700HQ (2.8 GHz, up to 3.8 GHz, 6MB cache).</p>
-      <footer>
-        <a href="#">Order product</a>
+
+  <main class="row">
+    <section class="leftcolumn">
+      <article class="card">
+        <h2> Technology promotion</h2>
+        <video class="fakeimg" style="height:600px; width: 100%;" autoplay muted>
+          <source src="videos/production.mp4" type="video/mp4">
+          <source src="videos/production.ogg" type="video/ogg">    
+        </video>
+      </article>
+    </section>
+    <section class="rightcolumn">
+      <aside class="card">
+        <h3>Topic List</h3>
+        <ol>
+          <li class="fakeimg">
+           
+            <a href="#">  iPhone 14 pro max new relased </a>
+          </li>
+          <li class="fakeimg">
+           
+            <a href="#"> Video trand on tiktok </a>
+          </li>
+          <li class="fakeimg">
+           
+            <a href="#">Apple watch 7 features </a>
+          </li>
+          <li class="fakeimg">
+            
+            <a href="#">Most Popular online playstation games </a>
+          </li>
+          <li class="fakeimg">
+           
+            <a href="#">Dell release a new product with 64gb ram </a>
+          </li>
+          <li class="fakeimg">
+           
+            <a href="#"> Mackbook relase with m.2 chip</a>
+          </li>
+          <li class="fakeimg">
+           
+            <a href="#">Asus  release a new product with 12gb graphics card </a>
+          </li>
+        </ol>
+      </aside>
+    </section>
+    <section class="welcome">
+      <p>Welcome at the Brave Mango Inc. page. We selling computers in 3 categories. Brave Mango Inc. is founded in 2000 by 3 students. 
+        It all started, when many classmates ask adviceabout computers. After a few months they expend their business to deliver computers 
+        to companies and also to the students. Because our fixed cost are low and deliver many computers, we have the lowest prices.</p>
+    </section>
+    <section id="main">
+      <article class="card mr10">
+        
+        <figure class="fakeimg-extra">
+          <img src="img/products/pc1.jpg" alt="pc1" style="width:100%">
+        </figure>
+        <p> Razer Blade 15 Advanced Model Laptop powered by 11th Gen Intel Core i7-11800H 8 Cores (2.3GHz / 4.6GHz) with NVIDIA GeForce Graphics.
+          This Razer Gaming Laptop featured with up to NVIDIA GeForce RTX3070 8GB GDDR6 VRAM Graphics.</p> 
+          <header class="extra-head">
+            <h2>Student Dev Pro</h2>
+            <h5>Price	€ 2100</h5>
+          </header>
+        <footer>
+          <p><a href="product.html">More info</a></p>
+        </footer>
+      </article>
+      <article class="card mr10">
+        <figure class="fakeimg-extra">
+          <img src="img/products/pc2.jpg" alt="pc1" style="width:100%">
+        </figure>
+        <p>The Asus ZenBook 14 UX425EA features Intel Core i7-1165G7 Processor (12M Cache, 2.80 GHz up to 4.70 GHz, with IPU) and 8GB 4266 MHz LPDDR4X RAM (OnBoard).
+          It comes equipped with a 512GB PCIeG3 NVMe SSD for storage and better performance.
+       </td>.</p>
+        <header class="extra-head">
+          <h2> Student Gamer PC</h2>
+          <h5>Price	€ 1200</h5>
+        </header>
+        <footer class="extra-footer">
+          <p><a href="product.html">More info</a></p>
       </footer>
-    </article>
-    <article class="product-card">
-      <figure>
-        <img src="img/products/pc2.jpg" />
-      </figure>
-      <header class="product-card-head">
-        <h2 itemprop="headline">Student Gamer PC</h2>
-        <p><time itemprop="datePublished" datetime="2009-10-09">3 days ago</time></p>
-      </header>
-      <p>Laptop 2	OS: Windows 11 Home 64,CPU: Intel® Core™ i7-8750H (2.2 GHz, up to 4.1 GHz, 9MB cache).</p>
-      <footer>
-        <a href="#">Order product</a>
-      </footer>
-    </article>
-    <article class="product-card">
-      <figure>
-        <img src="img/products/pc3.jpg" />
-      </figure>
-      <header class="product-card-head">
-        <h2 itemprop="headline">Student Basic</h2>
-        <p><time itemprop="datePublished" datetime="2009-10-09">3 days ago</time></p>
-      </header>
-      <p>Laptop 2	OS: Windows 11 Home 64,CPU: Intel® Core™ i7-8750H (2.2 GHz, up to 4.1 GHz, 9MB cache).</p>
-      <footer>
-        <a href="#">Order product</a>
-      </footer>
-    </article>
-  </section>
-  <footer class="home_footer">
-    &copy 2022 Tanvir All Rights Reserved
-  </footer>
+      </article>
+      <article class="card mr10">
+        <figure class="fakeimg-extra">
+          <img src="img/products/pc3.jpg" alt="pc1" style="width:100%">
+        </figure>
+        <p>The Asus Tuff -17  Intel  N5030 Processor (4M Cache, 1.10 GHz up to 3.10 GHz) with Intel UHD Graphics 687.
+           This series laptop comes with a micro-edge display, the barely visible bezel and larger screen fit into a smaller frame. </p>
+  <header class="extra-head"">
+    <h2>Student Basic</h2>
+    <h5>Price	€ 700</h5>
+  </header>
+    <footer>
+      <p><a href="product.html">More info</a></p>
+    </footer>
+   
+      </article>
+    </section>
+
+  <span class="cookies">
+    cookie statement
+  </span>
+
+<section class="innfooter">
+  <h2>© 2022 Tanvir All Rights Reserved</h2>
+</section>
 
 </body>
-
 </html>
